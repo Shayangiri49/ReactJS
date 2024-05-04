@@ -1,0 +1,23 @@
+.menu{
+    width: 60%;
+    text-align: left;
+    background-color: rgb(228, 176, 176);
+    height: 100vh;
+    transition: 0.5s;
+    position: fixed;
+    left: -100%;
+}
+
+.activeMenu{
+    left: 0%;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.micon{
+    position: absolute;
+    right: 10px;
+}
