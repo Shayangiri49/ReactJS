@@ -8,6 +8,7 @@ import { LearnEvent } from "./components/LearnEvent";
 import { LearnJSX } from "./components/LearnJSX"
 import { LearnProps } from "./components/LearnProps"
 import { Popup } from "./components/Popup Modal/Popup";
+import { Calculate } from "./components/caculatorapp/Calculate";
 
 
 function App() {
@@ -28,7 +29,8 @@ let roll = {
     {/* <div className="w-full h-screen bg-gradient-to-r from-indigo-500 to-blue-600 p-4">
     <FAQ/>
     </div> */}
-    <Greeting/>
+    {/* <Greeting/> */}
+    <Calculate/>
    
     </>
   )
